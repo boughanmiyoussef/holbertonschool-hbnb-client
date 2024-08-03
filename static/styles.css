@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0e0e0; /* Light gray background */
+}
+
+header, footer {
+    background-color: #FF9800; /* Red color */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header img.logo {
+    height: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-button, .home-button, .logout-button {
+    text-decoration: none;
+    color: #FFF0A2;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Card styles */
+.place-card, .review-card {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    background-color: white;
+}
+
+.place-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.place-image-large {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.details-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FF9800; /* Red color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.details-button:hover {
+    background-color: #FF9800; /* Lighter red for hover */
+}
+
+/* Forms styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #FF9800; /* Red color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF9800; /* Lighter red for hover */
+}
+
+/* additional styles */
+.add-review, .form {
+    margin-top: 20px;
+}
+
+.copyrights {
+    color:#FFD6CD;
+}
+
+
+#places-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.place-item {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust for three items per row with gap */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Adjust the bottom margin as needed */
+    border: 1px solid #ddd; /* Optional: add a border to the place items */
+    padding: 10px; /* Optional: add padding to the place items */
+    background-color: #f9f9f9; /* Optional: add background color */
+}
+
