@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBnB - Place Details</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="static/logo.png" class="logo" alt="Application Logo">
+            <a href="http://127.0.0.1:5000/" class="login-button">Home</a>
+            <a href="login.html" id="login-link" class="login-button">Login</a>
+            <a href="#" id="logout-link" class="logout-button" style="display: none;">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="place-details">
+            <!-- Place details will be populated dynamically -->
+             <div id="place-details"><h2>Reviews</h2>
+             <img src="" alt="" class="place-large-image">
+        </section>
+        <section id="reviews">
+            <!-- Reviews will be populated dynamically -->
+        </section>
+        <section id="add-review">
+            <!--add a button that takes the user to review-->
+            <!--make a verifier to see if its logged in if not send it to login-->
+            <div class="review-button-div">
+                <nav>
+                    <a href="add_review.html"><button>Add Review</button></a>
+                </div>
+                    <a href="http://127.0.0.1:5000/"><button>Go Home</button></a>
+                </nav>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyrights">© 2024 HBnB Evolution. All rights reserved.</p>
+    </footer>
+    <script src="static/scripts.js"></script>
+</body>
+</html>
